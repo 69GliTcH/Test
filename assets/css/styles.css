@@ -860,7 +860,9 @@ body.light-theme {
     width: 150px;
     height: 253px;
   }
-
+  .home__social::after{
+    transform: rotate(90deg) translate(20px, 2px);
+  }
   .home__img {
     width: 130px;
   }
@@ -900,6 +902,12 @@ body.light-theme {
   }
 }
 
+
+@media screen and (min-width: 320px){
+  .home__social::after{
+    transform: rotate(90deg) translate(20px, 2px);
+  }
+}
 /*####################### For medium devices #######################*/
 
 @media screen and (min-width: 576px) {
@@ -912,7 +920,9 @@ body.light-theme {
   .home__handle {
     width: 400px;
   }
-
+  .home__social::after{
+    transform: rotate(90deg) translate(20px, 2px);
+  }
   .nav__menu {
     width: 328px;
     left: 0;
@@ -973,7 +983,9 @@ body.light-theme {
     top: 10px;
     width: 30%;
   }
-
+.home__social::after{
+  transform: rotate(90deg) translate(20px, 2.5px);
+}
   .home__handle {
     width: 100%;
   }
@@ -1020,7 +1032,9 @@ body.light-theme {
   .nav {
     height: calc(var(--header-height)+1rem);
   }
-
+  .home__social::after{
+    transform: rotate(90deg) translate(20px, -2.5px);
+  }
   .home__handle {
     width: 290px;
     height: 400px;
